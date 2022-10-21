@@ -1,0 +1,23 @@
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.product-detail--card {
+    width: 45%;
+}
+.bitcoin-img-container{
+    background-image: url(../assets/img/bitcoinbaby4x.jpg);
+}
+.plans-container--slider, .main-tables-container{
+    overflow-x: unset;
+    overscroll-behavior-x: unset;
+    scroll-snap-type: unset;
+    justify-content: center
+
+
+}
+footer{
+    justify-content: space-between;
+}
